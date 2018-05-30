@@ -781,86 +781,83 @@ ul.year li:nth-child(5){
     margin-top: 3em;
 }
 /*--//work--*/
-/*-- research --*/
-.research-head h2{
-	color: #202020;
-	font-size: 1.8em;
-	font-family: 'Asap', sans-serif;
-	margin:0;
-	padding:0;
+/*-- portfolio --*/
+.portfolio-head h2{
+  color: #202020;
+  font-size: 1.8em;
+  font-family: 'Asap', sans-serif;
+  margin:0;
+  padding:0;
 }
-.research-head h2 span{
-	font-weight:700;
-	color:#2ec06c;
+.portfolio-head h2 span{
+  font-weight:700;
+  color:#2ec06c;
 }
-.research-head p:nth-child(2){
-	font-size:1.1em;
-	line-height:1.8em;
-	color:#666666;
-	width:80%;
-	margin:1em auto 0 auto;
+.portfolio-head p:nth-child(2){
+  font-size:1.1em;
+  line-height:1.8em;
+  color:#666666;
+  width:80%;
+  margin:1em auto 0 auto;
 }
-.research-grid{
-	margin-bottom:1.8em;
+.portfolio-grid{
+  margin-bottom:1.8em;
 }
-.research-grid-pic{
-	position:relative;
+.portfolio-grid-pic{
+  position:relative;
 }
-.research-grid-pic img{
-	width:100%;
+.portfolio-grid-pic img{
+  width:100%;
 }
-.research-grid-pic-caption{
-	position:absolute;
-	background:rgba(70, 194, 122, 0.82);
-	top:0px;
-	bottom:0;
-	text-align:center;
-	width:100%;
-	display:none;
+.portfolio-grid-pic-caption{
+  position:absolute;
+  background:rgba(70, 194, 122, 0.82);
+  top:0px;
+  bottom:0;
+  text-align:center;
+  width:100%;
+  display:none;
 }
-.research-grid-pic-caption a{
-	color:#FFF;
-	text-align:center;
-	border:1px solid #FFF;
-	font-size:1em;
-	padding:0.7em 1.8em;
-	display:inline-block;
-	text-decoration:none;
-	border-radius: 0.3em;
-	-webkit-border-radius: 0.3em;
-	-moz-border-radius: 0.3em;
-	-o-border-radius: 0.3em;
-	-ms-border-radius: 0.3em;
-	margin-top:8em;
-	font-family: 'Asap', sans-serif;
+.portfolio-grid-pic-caption a{
+  color:#FFF;
+  text-align:center;
+  border:1px solid #FFF;
+  font-size:1em;
+  padding:0.7em 1.8em;
+  display:inline-block;
+  text-decoration:none;
+  border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  margin-top:8em;
+  font-family: 'Asap', sans-serif;
 }
-.research-grid-pic-caption a:hover{
-	border-color:#202020;
-	color:#202020;
+.portfolio-grid-pic-caption a:hover{
+  border-color:#202020;
+  color:#202020;
 }
-.research-grid:hover div.research-grid-pic-caption{
-	display:block;
+.portfolio-grid:hover div.portfolio-grid-pic-caption{
+  display:block;
 }
-.research-grid-info h5{
-	color: #202020;
-	font-size: 1.4em;
-	font-family: 'Asap', sans-serif;
-	padding: 0.875em 0;
-	margin: 0;
+.portfolio-grid-info h5{
+  color: #202020;
+  font-size: 1.4em;
+  font-family: 'Asap', sans-serif;
+  padding: 0.875em 0;
+  margin: 0;
 }
-.research-grid-info{
-	background:#eeeeee;
-	border-bottom-left-radius: 0.8em;
-	border-bottom-right-radius: 0.8em;
+.portfolio-grid-info{
+  background:#eeeeee;
+  border-bottom-left-radius: 0.8em;
+  border-bottom-right-radius: 0.8em;
 }
-.research-grids{
-	margin-top:3em;
-}
-.research{
-	padding:3.5em 0;
+.portfolio-grids{
+  margin-top:3em;
 }
 /*-- feedback --*/
-.feedback{
+.portfolio{
 	background: url(../images/feedback-bg.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	min-height: 300px;
@@ -886,7 +883,7 @@ ul.year li:nth-child(5){
 	font-size:0.7em;
 	font-style:italic;
 }
-/*-- /research --*/
+/*-- /portfolio --*/
 .sap_tabs{
 	clear:both;
 	padding: 0em 0 0em;
@@ -949,13 +946,14 @@ button.close{
     width: 600px;
     margin: 13em auto 0;
 }
-.resarch-modal{
+
+.port-modal{
 	background:none;
 	box-shadow:none;
 	border:none;
 	outline:none;
 }
-div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#researchModal5,div#researchModal6,div#researchModal7,div#researchModal8,div#researchModal9,div#researchModal10 {
+div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,div#portfolioModal5,div#portfolioModal6,div#portfolioModal7,div#portfolioModal8,div#portfolioModal9,div#portfolioModal10 {
    
    background: rgba(0, 0, 0, 0.55);
 }
@@ -963,19 +961,19 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
     width: 100%;
 	border-bottom: 9px solid rgba(0, 0, 0, 0.81);
 }
-/*-- research --*/
+/*-- portfolio --*/
 
-#research .research-item {
+#portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
-#research .research-item .research-link {
+#portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
-#research .research-item .research-link .caption {
+#portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -985,10 +983,10 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
-#research .research-item .research-link .caption:hover {
+#portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
-#research .research-item .research-link .caption .caption-content {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -998,34 +996,34 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
     font-size: 20px;
     color: #fff;
 }
-#research .research-item .research-link .caption .caption-content i {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 	font-size: 35px;
 }
-#research * {
+#portfolio * {
     z-index: 2;
 }
 @media(min-width:767px) {
-    #research .research-item {
+    #portfolio .portfolio-item {
     margin: 0 0 30px;
     }
 }
 
-.research-modal .modal-content h3 {
+.portfolio-modal .modal-content h3 {
     margin: 0 0 44px 0px;
     font-size: 2em;
     color: #fff;
 }
-.research-modal .modal-content img {
+.portfolio-modal .modal-content img {
     margin: 0 auto;
 }
-.research-modal .modal-content p {
+.portfolio-modal .modal-content p {
 	font-size: 14px;
     padding: 2em 0;
     line-height: 1.8em;
     color: #fff;
 }
-.research-modal .close-modal {
+.portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -1035,7 +1033,7 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
     cursor: pointer;
     z-index: 1;
 }
-.research-modal .close-modal:hover {
+.portfolio-modal .close-modal:hover {
     opacity: .7;
 }
 .col-lg-offset-2 {
@@ -1043,7 +1041,7 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
 	margin:30px auto 0;
 	float:none;
 }
-.research-modal .close-modal .lr {
+.portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height:45px;
@@ -1053,7 +1051,7 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.research-modal .close-modal .lr .rl {
+.portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height:45px;
@@ -1071,11 +1069,11 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
     text-align: center;
 }
 
-#research {
+#portfolio {
     padding:5em 0 0 0;
     background: #f4f4f4;
 }
-/*-- //research --*/
+/*-- //portfolio --*/
 /*-- contact --*/
 .contact {
   background: #404545;
@@ -1351,7 +1349,7 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
 		min-height: 650px;
 		padding: 4em 0 0em 0;
 	}
-	#research {
+	#portfolio {
       padding:4em 0 0 0;
 	}
 	.thumb .team_pos {
@@ -1399,7 +1397,7 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
 	#work,.blog,#skills {
 		padding: 3em 0;
 	}
-	#research {
+	#portfolio {
 		padding: 3em 0 0 0;
 	}
 	.footer {
@@ -1728,7 +1726,7 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
 		width: 518px;
 		margin: 2em auto 0;
 	}
-	.research-grids {
+	.portfolio-grids {
 		margin-top: 1.5em;
 	}
 	.about-left-grid {
@@ -1914,7 +1912,7 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
 		float: none;
 		min-height: 234px;
 	}
-	#research {
+	#portfolio {
 		padding: 1.5em 0 0 0;
 	}
 	ul.news li {
@@ -1988,10 +1986,10 @@ div#researchModal1,div#researchModal2,div#researchModal3,div#researchModal4,div#
 		min-height: 454px;
 		margin-left: 1em;
 	}
-	.research-grids {
+	.portfolio-grids {
 		margin-top: 1.2em;
 	}
-	.research-modal .modal-content h3 {
+	.portfolio-modal .modal-content h3 {
 		margin: 0 0 14px 0px;
 		font-size: 1.5em;
 	}
