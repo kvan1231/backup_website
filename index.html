@@ -1,27 +1,790 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE HTML>
-<HTML>
-    <HEAD>
-        <TITLE>HTML Page</TITLE>
-    </HEAD>
-    <BODY>
-        <h1>This is a large heading.</h1>
+<html>
+    <head>
+        <title>Kenny X. Van Homepage</title>
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Custom Theme files -->
+        <link href="css/style.css" rel='stylesheet' type='text/css' />
+        <!-- Custom Theme files -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="University of Alberta Graduate Student Kenny Van" content="Home page containing the contact information, research and education of Kenny Van" />
+        <!-- webfonts -->
 
-        <h2>This is an h2</h2>
+        <!-- Open Sans Google font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+        <!-- Raleway Google font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:700">
+        <!-- webfonts -->
+        
+        <!-- Font Awesome fonts-->
+        <link rel='stylesheet'
+             href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <!-- Animate.css file -->
+        <link rel="stylesheet" href="css/animate.css">
 
-        <h6>This is an h6</h6>
+        <!---- start-smoth-scrolling---->
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+            <script type="text/javascript">
+                    jQuery(document).ready(function($) {
+                        $(".scroll").click(function(event){     
+                            event.preventDefault();
+                            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                        });
+                    });
+                </script>
+        <!---- start-smoth-scrolling---->
+    </head>
 
-        <p>This is a paragraph.</p>
 
-        <ol>
-        	<li> This is a list item. </li>
-        	<li> Nanners </li>
-        	<li> Appo </li>
-        	<ul>
-        		<li> This is a nested list </li>
-        		<li> more stuff </li>
-        	</ul>
-        </ol>
+    <body>
+        <!-- container -->
+        <!-- header -->
+        <div id="home" class="header">
+            <div class="container">
+            <!-- top-header -->
+                <div class="top-header">
+                    <!-- /logo -->
+                    <!--top-nav---->
+                    <div class="top-nav">
+                        <div class="navigation">
+                            <!-- <div class="logo"> -->
+                                <!-- <h1><a href="index.html"><span>P</span>REFACE</a></h1> -->
+                            <!-- </div> -->
+                            <div class="navigation-right">
+                                <span class="menu"><img src="images/menu.png" alt=" " /></span>
+                                <nav class="link-effect-3" id="link-effect-3">
+                                    <ul class="nav1 nav nav-wil">
+                                        <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+                                        <li><a class="scroll" data-hover="About" href="#about">About</a></li>
+                                        <li><a class="scroll" data-hover="Skills" href="#skills" >Skills</a></li>
+                                        <li><a class="scroll" data-hover="Education" href="#edu">Education</a></li>
+                                        <li><a class="scroll" data-hover="Research" href="#resarch">Research</a></li>
+                                    </ul>
+                                </nav>
+                                    <!-- script-for-menu -->
+                                    <script>
+                                       $( "span.menu" ).click(function() {
+                                         $( "ul.nav1" ).slideToggle( 300, function() {
+                                         // Animation complete.
+                                          });
+                                         });
+                                    </script>
+                                    <!-- /script-for-menu -->
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- /top-header -->
+                    </div>
+                    <div class="banner-info">
+                        <div class="col-md-7 header-right">
+                            <!-- <h1>Hi !</h1> -->
+                            <h6>Graduate Student</h6>
+                            <ul class="address">
+                            
+                            <li>
+                                    <ul class="address-text">
+                                        <li><b>NAME</b></li>
+                                        <li>KENNY X. VAN</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="address-text">
+                                        <li><b>PHONE </b></li>
+                                        <li>+1 780 885 5022</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="address-text">
+                                        <li><b>ADDRESS </b></li>
+                                        <li>University of Alberta, CCIS 2-108</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="address-text">
+                                        <li><b>E-MAIL </b></li>
+                                        <li><a href="mailto:example@mail.com"> kvan@ualberta.ca</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="address-text">
+                                        <li><b>WEBSITE </b></li>
+                                        <li><a href="http://w3layouts.com">www.myresume.com</a></li>
+                                    </ul>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-md-5 header-left">
+                            <img src="images/img1.jpg" alt="">
+                        </div>
+                        <div class="clearfix"> </div>         
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <img>	
-    </BODY>
-</HTML>
+        <!-- about -->
+        <div id="about" class="about">
+            <div class="col-md-6 about-left">
+                <div id="owl-demo1" class="owl-carousel owl-carousel2">
+                                <div class="item">
+                                    <div class="about-left-grid">
+                                        <h2>Hi I'm <span>Kenny Van</span></h2>
+                                        <p>I have experience in using the 1D stellar evolution code <a href="http://mesa.sourceforge.net/"> Modules for Experiments in Stellar Astrophysics (MESA)</a>. Using Python to process and analyze the large quantities of data produced by MESA I am able to visually present the data in a clearer way. I have also written modifications to MESA using the programming language, Fortran, a high speed coding language focused primarily on scientific and numeric applications.</p>
+                                        <ul>
+                                            <li><a class="a-btn-a scroll" href="#skills">My Skills</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                  <div class="item">
+                                    <div class="about-left-grid">
+                                        <h2>Hi I'm <span>Kenny Van</span></h2>
+                                        <p>I'm Currently a first year PhD student working under professor <a href="https://sites.ualberta.ca/~ivanova1/">Natalia Ivanova</a> at the University of Alberta. Professor Ivanova was also my Master's supervisor with my thesis focusing on mass transfer and magnetic braking in low mass X-ray binaries containing neutron stars.<p>
+                                        <ul>
+                                            <li><a class="a-btn-a scroll" href="#edu">My Education</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                  <div class="item">
+                                    <div class="about-left-grid">
+                                        <h2>Hi I'm <span>Kenny Van</span></h2>
+                                        <p>My Current research focuses on testing a more generalized and improved magnetic braking prescription described in <a href="http://arxiv.org/abs/1511.08847"> Pavlovskii et al. 2015</a>. Using <a href="http://mesa.sourceforge.net/"> MESA </a> and the resources provided by <a href="https://www.computecanada.ca/"> Compute Canada </a> I simulate a grid of initial binaries and compare the results to observed systems. </p>
+                                        <ul>
+                                            <li><a class="a-btn-a scroll" href="#resarch">My Work</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                </div>
+            </div>
+            <div class="col-md-6 about-right"> </div>
+            <div class="clearfix"> </div>
+                        <link href="css/owl.carousel.css" rel="stylesheet">
+                            <script src="js/owl.carousel.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#owl-demo1").owlCarousel({
+                    items : 1,
+                    lazyLoad : false,
+                    autoPlay : true,
+                    navigation : false,
+                    navigationText :  false,
+                    pagination : true,
+                });
+            });
+        </script>
+        <!-- Feedback -->
+        <script>
+            $(document).ready(function() {
+                $("#owl-demo3").owlCarousel({
+                    items : 1,
+                    lazyLoad : false,
+                    autoPlay : true,
+                    navigation : false,
+                    navigationText :  true,
+                    pagination :true,
+                });
+            });
+        </script>
+        </div>
+        <!-- /about -->
+
+        <!-- skills -->
+        <div id="skills" class="skills">
+            <div class="container">
+                <div class="skill-head one text-center ">
+                    <h4>WHAT I DO</h4>
+                    <h3>MY <span>SKILLS</span></h3>
+                    <!-- <span class="border two"></span> -->
+                </div>
+                <!-- skills-grids -->
+                <div class="wthree_about_right_grids w3l-agile">
+                    <div class="col-md-6 wthree_about_right_grid">
+                        <div class="col-xs-4 wthree_about_right_grid_left">
+                            <div class="hvr-rectangle-in">
+                                <i class="glyphicon glyphicon-star"></i>
+                            </div>
+                        </div>
+                        <div class="col-xs-8 wthree_about_right_grid_right">
+                            <h4>Stellar Simulation</h4>
+                            <p>I have extensive knowledge in both using and modifying the stellar evolution code <a href="http://mesa.sourceforge.net/"> MESA </a>. My resarch has used this code since the beginning of my Master's research and I have been a teaching assistant for a graduate level course requiring the use of the code and at the <a href="http://cococubed.asu.edu/mesa_summer_school_2018/agenda.html">MESA summer school</a> itself. </p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-md-6 wthree_about_right_grid">
+                        <div class="col-xs-4 wthree_about_right_grid_left">
+                            <div class="hvr-rectangle-in">
+                                <i class="glyphicon glyphicon-eye-open"></i>
+                            </div>
+                        </div>
+                        <div class="col-xs-8 wthree_about_right_grid_right">
+                            <h4>Data Visualization</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="col-md-6 wthree_about_right_grid">
+                        <div class="col-xs-4 wthree_about_right_grid_left">
+                            <div class="hvr-rectangle-in">
+                                <i class="glyphicon glyphicon-wrench"></i>
+                            </div>
+                        </div>
+                        <div class="col-xs-8 wthree_about_right_grid_right">
+                            <h4>Python</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-md-6 wthree_about_right_grid">
+                        <div class="col-xs-4 wthree_about_right_grid_left">
+                            <div class="hvr-rectangle-in">
+                                <i class="glyphicon glyphicon-cog"></i>
+                            </div>
+                        </div>
+                        <div class="col-xs-8 wthree_about_right_grid_right">
+                            <h4>Fortran</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+                <!-- skills-grids -->
+            </div>
+        </div>
+        <!-- skills -->
+
+            <!--Education-->
+    <div id="edu" class="edu">
+        <div class="container">
+            <div class="skill-head text-center">
+                <h4>WHAT I DID</h4>
+                <h3>MY <span>EDUCATION</span></h3>
+                <!-- <span class="border one"></span> -->
+            </div>
+            <div class="time-main w3l-agile">
+                    <div class="col-md-6 year-info">
+                       <ul class="year">
+                           <li>2017 -</li>
+                           <li>2015 - 2017</li>
+                           <li>2010 - 2015</li>
+                           <div class="clearfix"></div>
+                        </ul>
+                    </div> 
+                        <ul class="col-md-6 timeline">
+                            <li>
+                              <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+                              <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                  <h4 class="timeline-title">PhD Candidate</h4>
+                                </div>
+                                <div class="timeline-body">
+                                  <p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
+                                </div>
+                              </div>
+                            </li>
+                            
+                            <li>
+                              <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+                              <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                  <h4 class="timeline-title">Master of Science:</h4>
+                                </div>
+                                <div class="timeline-body">
+                                  <p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
+                                </div>
+                              </div>
+                            </li>
+                            
+                            <li>
+                              <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+                              <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                  <h4 class="timeline-title">Bachelor of Science: Specializiation Astrophysics</h4>
+                                </div>
+                                <div class="timeline-body">
+                                  <p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
+                                </div>
+                              </div>
+                            </li>
+
+                        </ul>
+            <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--//Education-->
+
+    <!-- Research -->
+    <div class="Research" id="resarch">
+        <div class="skill-head text-center">
+            <h4>MY WORK</h4>
+            <h3>MY <span>RESEARCH</span></h3>
+            <!-- <span class="border"></span> -->
+        </div>
+        <div class="Research-grids">
+            <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                                $(document).ready(function () {
+                                    $('#horizontalTab').easyResponsiveTabs({
+                                        type: 'default', //Types: default, vertical, accordion           
+                                        width: 'auto', //auto or any width like 600px
+                                        fit: true   // 100% fit in a container
+                                    });
+                                });
+                                
+            </script>
+            <div class="sap_tabs">
+                <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+                    <ul class="resp-tabs-list">
+                        <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>ALL</span></li> 
+                        <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>TOPIC 1</span></li> 
+                        <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>TOPIC 2</span></li>               
+                        <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>TOPIC 3</span></li> 
+                    </ul>                    
+                    <div class="resp-tabs-container">
+                        <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+                            <div class="col-md-3 team-gd ">
+                                
+                                    <a href="#ResearchModal1" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic4.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="col-md-3 team-gd ">
+                                
+                                    <a href="#ResearchModal3" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic5.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="col-md-3 team-gd ">
+                                
+                                    <a href="#ResearchModal2" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="col-md-3 team-gd ">
+                            
+                                    <a href="#ResearchModal4" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="col-md-3 team-gd yes_marg ">
+                                
+                                    <a href="#ResearchModal5" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="col-md-3 team-gd yes_marg ">
+                                
+                                    <a href="#ResearchModal6" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="col-md-3 team-gd yes_marg ">
+                                
+                                    <a href="#ResearchModal7" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt="">
+                                    
+                                    </a>
+                            
+                            </div>
+                            <div class="col-md-3 team-gd yes_marg ">
+                                
+                                    <a href="#ResearchModal8" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic14.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+                            <div class="col-md-3 team-gd ">
+                                <div class="thumb">
+                                    <a href="#ResearchModal5" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
+                                    
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 team-gd  ">
+                                <div class="thumb">
+                                    <a href="#ResearchModal6" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
+                                    
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 team-gd ">
+                                
+                                    <a href="#ResearchModal7" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+                            <div class="col-md-3 team-gd ">
+                                
+                                    <a href="#ResearchModal2" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.jpg" alt="">
+                                    
+                                    </a>
+                            
+                            </div>
+                            <div class="col-md-3 team-gd ">
+                                
+                                    <a href="#ResearchModal4" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="col-md-3 team-gd">
+                                
+                                    <a href="#ResearchModal5" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="col-md-3 team-gd">
+                                
+                                    <a href="#ResearchModal6" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
+                                
+                                    </a>
+                                
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+                            <div class="col-md-3 team-gd ">
+                                
+                                    <a href="#ResearchModal5" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="col-md-3 team-gd">
+                                
+                                    <a href="#ResearchModal6" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="col-md-3 team-gd ">
+                                
+                                    <a href="#ResearchModal7" class="Research-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt="">
+                                    
+                                    </a>
+                                
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Research -->
+
+    <!-- /header -->
+
+    <!-- Contact -->
+    <div class="contact text-center" id="contact">
+        <div class="container">
+            <!-- Title -->
+            <div class="service-head one text-center">
+                <h2 class="color:white">CONTACT ME</h2>
+            </div>
+            <div class="row contact-info text-center">
+                <div class="col-md-4 col-sm-6 col-xs-12 info">
+                    <i class="fa fa-phone text-center"></i>
+                    <div class="info-content">
+                        <h3>Contact By Phone</h3>
+                        <span>+1 780 885 5022</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 info">
+                    <i class="fa fa-envelope text-center"></i>
+                    <div class="info-content">
+                        <h3>Contact By Email</h3>
+                        <span>kvan@ualberta.ca</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 info">
+                    <i class="fa fa-university text-center"></i>
+                    <div class="info-content">
+                        <h3>Address</h3>
+                        <span>University of
+                            Alberta</span>
+                        <span>CCIS 2-108</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Contact -->
+
+    <!-- Start Footer Section -->
+    <div class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 links">
+                    <!-- Social links -->
+                    <div class="icon-wrapper text-center">
+                        <!-- Facebook Link -->
+                        <!-- <a href="https://www.facebook.com/" class="icon fb">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook"></i>
+                        </a> -->
+                        <!-- Twitter Link -->
+                        <!--<a href="#" class="icon tw">
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-twitter"></i>
+                        </a>-->
+                        <!-- Github Link -->
+                        <a href="https://github.com/kvan1231" class="icon gh">
+                            <i class="fa fa-github"></i>
+                            <i class="fa fa-github"></i>
+                        </a>
+                        <!-- Google Plus Link -->
+                        <!-- <a href="" class="icon gp">
+                            <i class="fa fa-google-plus"></i>
+                            <i class="fa fa-google-plus"></i>
+                        </a> -->
+                        <!-- Linkedin Link -->
+                        <!-- <a href="" class="icon lin">
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </a> -->
+                        <!-- Pinterest Link -->
+                        <!--<a href="#" class="icon pin">
+                            <i class="fa fa-pinterest"></i>
+                            <i class="fa fa-pinterest"></i>
+                        </a>-->
+                    </div>
+                </div>
+
+                <div class="copy_right text-center">
+                <p>&copy; 2016 Preface . All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts.</a></p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- //footer -->
+    <!-- /container -->
+
+    <div class="Research-modal modal fade slideanim" id="ResearchModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content resarch-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <h3>Image-Title</h3>
+                            <img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Research-modal modal fade slideanim" id="ResearchModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content resarch-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <h3>Image-Title</h3>
+                            <img src="images/pic9.jpg" class="img-responsive img-centered" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Research-modal modal fade slideanim" id="ResearchModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content resarch-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <h3>Image-Title</h3>
+                            <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Research-modal modal fade slideanim" id="ResearchModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content resarch-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <h3>Image-Title</h3>
+                            <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Research-modal modal fade slideanim" id="ResearchModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content resarch-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <h3>Image-Title</h3>
+                            <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Research-modal modal fade slideanim" id="ResearchModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content resarch-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <h3>Image-Title</h3>
+                            <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Research-modal modal fade slideanim" id="ResearchModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content resarch-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <h3>Image-Title</h3>
+                            <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Research-modal modal fade slideanim" id="ResearchModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content resarch-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <h3>Image-Title</h3>
+                            <img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Research-modal modal fade slideanim" id="ResearchModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content resarch-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+        <!--start-smooth-scrolling-->
+                            <script type="text/javascript">
+                                        $(document).ready(function() {
+                                            /*
+                                            var defaults = {
+                                                containerID: 'toTop', // fading element id
+                                                containerHoverID: 'toTopHover', // fading element hover id
+                                                scrollSpeed: 1200,
+                                                easingType: 'linear' 
+                                            };
+                                            */
+                                            
+                                            $().UItoTop({ easingType: 'easeOutQuart' });
+                                            
+                                        });
+                                    </script>
+                                    <!--end-smooth-scrolling-->
+    <!-- //for bootstrap working -->
+        <script src="js/bootstrap.js"></script>
+    
+
+    </body>
+</html>
+
