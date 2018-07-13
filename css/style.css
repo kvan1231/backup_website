@@ -948,7 +948,7 @@ button.close{
 }
 
 .port-modal{
-	background:none;
+	/*background:none;*/
 	box-shadow:none;
 	border:none;
 	outline:none;
