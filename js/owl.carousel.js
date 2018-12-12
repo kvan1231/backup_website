@@ -1417,19 +1417,19 @@ if ( typeof Object.create !== "function" ) {
 		singleItem : false,
 		itemsScaleUp : false,
 
-		slideSpeed : 200,
-		paginationSpeed : 800,
-		rewindSpeed : 1000,
+		slideSpeed : 10000,
+		paginationSpeed : 4000,
+		rewindSpeed : 2500,
 
 		autoPlay : false,
-		stopOnHover : false,
+		stopOnHover : true,
 
 		navigation : false,
 		navigationText : ["prev","next"],
 		rewindNav : true,
 		scrollPerPage : false,
 
-		pagination : true,
+		pagination : false,
 		paginationNumbers : false,
 
 		responsive : true,
